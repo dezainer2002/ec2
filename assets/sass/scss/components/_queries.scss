@@ -1,0 +1,11 @@
+@mixin media( $width ) {
+  @media ( max-width: $width ) {
+    @content;
+  }
+}
+
+@mixin media768() {
+  @media ( max-width: 768px ) {
+    @content;
+  }
+}

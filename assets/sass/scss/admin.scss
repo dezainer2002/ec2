@@ -1,0 +1,22 @@
+@import 'components/global';
+@import 'components/grid';
+@import 'components/queries';
+@import 'components/mixins';
+@import 'components/headings';
+@import 'components/colors';
+@import 'components/buttons';
+@import 'components/admin/contentArea';
+
+:root{
+	--sb_bg:#5284e9; /* Sidebar Background */
+	--sb_gradient_bg: linear-gradient(141deg, $defaultColor 0%, darken($defaultColor, 50%), darken($defaultColor, 75%)); /* Sidebar Background */
+	--sb_color:#b6c7e9; /* Sidebar Color */
+	--sb_H_bg:#2057c6; /* Sidebar Header Background */
+	--sb_sH_bg:#666; /* Sidebar Sub Heading Background */
+	--nb_bg:#666; /* Navbar Background */
+	--nb_color:#9cb7ec; /* Navbar Sub Heading Background */
+}
+
+
+@import 'components/admin/navBar';
+@import 'components/admin/sideBar';

@@ -1,0 +1,22 @@
+#content {
+  width: 100%;
+  position: relative;
+  @include media( 650px ) {
+    padding-top: 50px;
+  }
+  #sidebarCollapse {
+    .burgerIcon,
+    .crossIcon {
+      $wh: 36px;
+      max-width: $wh;
+      max-height: $wh;
+      position: absolute;
+      top: 15px;
+      left: 15px;
+      visibility: hidden;
+      &.active {
+        visibility: visible;
+      }
+    }
+  }
+}

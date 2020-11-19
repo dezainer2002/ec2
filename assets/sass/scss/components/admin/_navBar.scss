@@ -1,0 +1,21 @@
+.navbar{
+	padding: 7px 10px;
+	background: var(--nb_bg);
+	background-image: linear-gradient(90deg, #fff, var(--nb_bg) );
+	border: none;
+	border-radius: 0;
+  margin-bottom: 15px;
+  ul {
+    > li {
+      > a {
+        text-decoration: none;
+        color: var(--nb_color);
+      }
+    }
+  }
+  .navbar-btn{
+    box-shadow: none;
+    outline: none !important;
+    border: none;
+  }
+}

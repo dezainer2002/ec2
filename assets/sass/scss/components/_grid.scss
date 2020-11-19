@@ -1,0 +1,27 @@
+@mixin rowIs ( $col, $gap ) {
+  .rowIs {
+    @if $col == 1 {
+      display: grid;
+      grid-template-columns: auto;
+    } @else if $col == 2 {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    @if $gap {
+      gap: $gap;
+    }
+  }
+}
+
+.fullWidth {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+.containerIs {
+  max-width: $maxWidth;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}

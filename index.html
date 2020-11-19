@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap4.min.css">
+  <link rel="stylesheet" href="./assets/css/login.css">
+</head>
+<body>
+  <div class="fullWidthWrapper">
+    <div class="imgPart">
+      <img src="./assets/img/loginImg.png" alt="">
+    </div>
+    <div class="loginPart">
+      <div class="loginBlock">
+        <div class="head">
+          <img src="./assets/img/logo.svg" alt="">
+        </div>
+        <div class="role">Provider</div>
+        <form action="" method="post">
+          <div class="body_">
+            <input type="text" name="username" id="username" placeholder="Email / Phone" class="input" required>
+
+            <input type="password" name="password" id="password" placeholder="Password" class="input" required>
+
+            <div class="options">
+              <label for="rememberMe">
+                <input type="checkbox" name="rememberMe" id="rememberMe" value="rememberMe">
+                <span class="checkUncheck"></span>
+                <div class="text">Remember me</div>
+              </label>
+
+              <a href="#__forgotPassword" class="forgot">
+                Forgot Password
+              </a>
+            </div>
+          </div>
+
+          <div class="footer_">
+            <button class="customBtn">Login</button>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="footerText">
+      Term of use. Privacy policy
+    </div>
+  </div>
+
+
+
+  <script src="./assets/js/jquery.min.js"></script>
+  <script src="./assets/js/custom.js"></script>
+</body>
+</html>

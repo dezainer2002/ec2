@@ -1,0 +1,34 @@
+@import 'fonts';
+
+$font_LatoBold                  :   'Lato_bold', sans-serif;
+$font_Lato_900                  :   'Lato_900', sans-serif;
+$font_Lato_900_italic           :   'Lato_900_italic', sans-serif;
+$font_Lato_300                  :   'Lato_300', sans-serif;
+$font_Lato_bold_italic          :   'Lato_bold_italic', sans-serif;
+$font_Lato_300_italic           :   'Lato_300_italic', sans-serif;
+$font_Lato_italic               :   'Lato_italic', sans-serif;
+$font_Lato                      :   'Lato', sans-serif;
+$font_Lato_Hairline_300         :   'Lato_Hairline_300', sans-serif;
+$font_Lato_Hairline_300_italic  :   'Lato_Hairline_300_italic', sans-serif;
+$font_HelveticaNeue_LT_67_500   :   'HelveticaNeue_LT_67_500', sans-serif;
+
+
+$transition_2: 0.2s all ease-in-out;
+$transition_3: 0.2s all ease-in-out;
+
+$defaulColor  :   #1F1F1F;
+
+$maxWidth     :   1400px;
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: $font_Lato;
+  font-size: 16px;
+}
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  perspective: 1500px;
+}

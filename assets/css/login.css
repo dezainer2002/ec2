@@ -1,0 +1,282 @@
+@font-face {
+  font-family: "Lato_bold";
+  src: url("../fonts/Lato-Bold.eot");
+  src: url("../fonts/Lato-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Bold.woff2") format("woff2"), url("../fonts/Lato-Bold.woff") format("woff"), url("../fonts/Lato-Bold.ttf") format("truetype"), url("../fonts/Lato-Bold.svg#Lato-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_900";
+  src: url("../fonts/Lato-Black.eot");
+  src: url("../fonts/Lato-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Black.woff2") format("woff2"), url("../fonts/Lato-Black.woff") format("woff"), url("../fonts/Lato-Black.ttf") format("truetype"), url("../fonts/Lato-Black.svg#Lato-Black") format("svg");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_900_italic";
+  src: url("../fonts/Lato-BlackItalic.eot");
+  src: url("../fonts/Lato-BlackItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BlackItalic.woff2") format("woff2"), url("../fonts/Lato-BlackItalic.woff") format("woff"), url("../fonts/Lato-BlackItalic.ttf") format("truetype"), url("../fonts/Lato-BlackItalic.svg#Lato-BlackItalic") format("svg");
+  font-weight: 900;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_300";
+  src: url("../fonts/Lato-Light.eot");
+  src: url("../fonts/Lato-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Light.woff2") format("woff2"), url("../fonts/Lato-Light.woff") format("woff"), url("../fonts/Lato-Light.ttf") format("truetype"), url("../fonts/Lato-Light.svg#Lato-Light") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_bold_italic";
+  src: url("../fonts/Lato-BoldItalic.eot");
+  src: url("../fonts/Lato-BoldItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-BoldItalic.woff2") format("woff2"), url("../fonts/Lato-BoldItalic.woff") format("woff"), url("../fonts/Lato-BoldItalic.ttf") format("truetype"), url("../fonts/Lato-BoldItalic.svg#Lato-BoldItalic") format("svg");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_300_italic";
+  src: url("../fonts/Lato-LightItalic.eot");
+  src: url("../fonts/Lato-LightItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-LightItalic.woff2") format("woff2"), url("../fonts/Lato-LightItalic.woff") format("woff"), url("../fonts/Lato-LightItalic.ttf") format("truetype"), url("../fonts/Lato-LightItalic.svg#Lato-LightItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_italic";
+  src: url("../fonts/Lato-Italic.eot");
+  src: url("../fonts/Lato-Italic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Italic.woff2") format("woff2"), url("../fonts/Lato-Italic.woff") format("woff"), url("../fonts/Lato-Italic.ttf") format("truetype"), url("../fonts/Lato-Italic.svg#Lato-Italic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.eot");
+  src: url("../fonts/Lato-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Regular.woff2") format("woff2"), url("../fonts/Lato-Regular.woff") format("woff"), url("../fonts/Lato-Regular.ttf") format("truetype"), url("../fonts/Lato-Regular.svg#Lato-Regular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_Hairline_300";
+  src: url("../fonts/Lato-Hairline.eot");
+  src: url("../fonts/Lato-Hairline.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-Hairline.woff2") format("woff2"), url("../fonts/Lato-Hairline.woff") format("woff"), url("../fonts/Lato-Hairline.ttf") format("truetype"), url("../fonts/Lato-Hairline.svg#Lato-Hairline") format("svg");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Lato_Hairline_300_italic";
+  src: url("../fonts/Lato-HairlineItalic.eot");
+  src: url("../fonts/Lato-HairlineItalic.eot?#iefix") format("embedded-opentype"), url("../fonts/Lato-HairlineItalic.woff2") format("woff2"), url("../fonts/Lato-HairlineItalic.woff") format("woff"), url("../fonts/Lato-HairlineItalic.ttf") format("truetype"), url("../fonts/Lato-HairlineItalic.svg#Lato-HairlineItalic") format("svg");
+  font-weight: 300;
+  font-style: italic;
+  font-display: swap;
+}
+@font-face {
+  font-family: "HelveticaNeue_LT_67_500";
+  src: url("../fonts/HelveticaNeueLT-MediumCond.eot");
+  src: url("../fonts/HelveticaNeueLT-MediumCond.eot?#iefix") format("embedded-opentype"), url("../fonts/HelveticaNeueLT-MediumCond.woff2") format("woff2"), url("../fonts/HelveticaNeueLT-MediumCond.woff") format("woff"), url("../fonts/HelveticaNeueLT-MediumCond.ttf") format("truetype"), url("../fonts/HelveticaNeueLT-MediumCond.svg#HelveticaNeueLT-MediumCond") format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+}
+
+.wrapper {
+  display: flex;
+  width: 100%;
+  align-items: stretch;
+  perspective: 1500px;
+}
+
+.fullWidth {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 100%;
+}
+
+.containerIs {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.customBtn {
+  background-color: #3C8025;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 100px;
+  color: #fff;
+  margin-top: 60px;
+  cursor: pointer;
+  position: relative;
+}
+.customBtn::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' x='0px' y='0px' width='375.406px' height='59.953px' viewBox='0 0 375.406 59.953' enable-background='new 0 0 375.406 59.953' xml:space='preserve'%3E%3Cpath opacity='0.2' fill='%23FFFFFF' d='M375.406,0L0,59.953h375.406V0z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+}
+
+.bold {
+  font-weight: bold;
+  color: #5FA01B;
+}
+
+.fullWidthWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+@media (max-width: 600px) {
+  .fullWidthWrapper {
+    display: block;
+  }
+}
+.fullWidthWrapper .imgPart {
+  width: 100%;
+  max-width: 50%;
+  display: flex;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .fullWidthWrapper .imgPart {
+    max-width: 100%;
+  }
+}
+.fullWidthWrapper .imgPart img {
+  object-fit: contain;
+  max-width: 100%;
+  max-height: 100%;
+  align-self: center;
+}
+.fullWidthWrapper .loginPart {
+  width: 100%;
+  max-width: 50%;
+  align-self: center;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  .fullWidthWrapper .loginPart {
+    max-width: 100%;
+  }
+}
+.fullWidthWrapper .loginPart .loginBlock {
+  margin: 0 auto;
+  max-width: 420px;
+  padding: 20px;
+}
+.fullWidthWrapper .loginPart .loginBlock .head {
+  margin: 0 auto;
+  font-size: 36px;
+}
+.fullWidthWrapper .loginPart .loginBlock .role {
+  margin: 0 auto;
+  font-size: 18px;
+  color: #4D4F5C;
+}
+.fullWidthWrapper .loginPart .loginBlock .footer_ .loginBtn {
+  background: #5FA01B;
+  border: 0;
+  border-radius: 25px;
+  padding: 10px 100px;
+  font-size: 15px;
+  color: #fff;
+  font-family: "Poppins-semibold", sans-serif;
+  margin-top: 60px;
+  cursor: pointer;
+}
+.fullWidthWrapper .loginPart .body_ {
+  margin-top: 50px;
+}
+.fullWidthWrapper .loginPart .body_ .input {
+  border: 0;
+  border-bottom: 2px solid #E9E9F0;
+  width: 100%;
+  font-size: 15px;
+  padding: 5px 3px;
+  margin-bottom: 44px;
+  color: #43425D;
+  outline: none;
+}
+.fullWidthWrapper .loginPart .body_ .options {
+  display: flex;
+  flex-wrap: wrap;
+}
+.fullWidthWrapper .loginPart .body_ .options label[for=rememberMe] {
+  width: 100%;
+  max-width: 50%;
+  text-align: left;
+  position: relative;
+  font-size: 14px;
+}
+.fullWidthWrapper .loginPart .body_ .options label[for=rememberMe]::before {
+  content: "";
+  position: absolute;
+  border: 2px solid #43425D;
+  border-radius: 3px;
+  width: 18px;
+  height: 18px;
+}
+.fullWidthWrapper .loginPart .body_ .options label[for=rememberMe] input#rememberMe {
+  display: none;
+}
+.fullWidthWrapper .loginPart .body_ .options label[for=rememberMe] .text {
+  margin-left: 26px;
+  display: inline-block;
+}
+.fullWidthWrapper .loginPart .body_ .options label[for=rememberMe] input#rememberMe:checked + .checkUncheck {
+  display: inline-block;
+}
+.fullWidthWrapper .loginPart .body_ .options label[for=rememberMe] .checkUncheck {
+  background-image: url("data:image/svg+xml,%3Csvg height='100%25' viewBox='0 0 64 64' width='100%25' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink'%3E%3Ctitle/%3E%3Cdesc/%3E%3Cg fill='none' fill-rule='evenodd' id='Tick' stroke='none' stroke-width='1'%3E%3Cg fill='%23000000' id='Group' transform='translate(9.000000, 13.000000)'%3E%3Cpath d='M12.5900974,34.4099026 C13.5664082,35.3862133 15.1493206,35.3862133 16.1256313,34.4099026 L44.4099026,6.12563133 C45.3862133,5.1493206 45.3862133,3.56640815 44.4099026,2.59009742 C43.4335918,1.61378669 41.8506794,1.61378669 40.8743687,2.59009742 L12.5900974,30.8743687 C11.6137867,31.8506794 11.6137867,33.4335918 12.5900974,34.4099026 Z' id='Rectangle'/%3E%3Cpath d='M1.42893219,19.9289322 C2.40524292,18.9526215 3.98815536,18.9526215 4.96446609,19.9289322 L15.5710678,30.5355339 C16.5473785,31.5118446 16.5473785,33.0947571 15.5710678,34.0710678 C14.5947571,35.0473785 13.0118446,35.0473785 12.0355339,34.0710678 L1.42893219,23.4644661 C0.452621459,22.4881554 0.452621459,20.9052429 1.42893219,19.9289322 Z' id='Rectangle'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  width: 18px;
+  height: 16px;
+  content: "";
+  display: none;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+}
+.fullWidthWrapper .loginPart .body_ .options .forgot {
+  margin-left: auto;
+  text-decoration: none;
+  color: #43425D;
+}
+.fullWidthWrapper .footerText {
+  font-family: "Lato", sans-serif;
+  font-size: 12px;
+  position: absolute;
+  bottom: 8px;
+  left: 75%;
+  transform: translate(-50%, -25%);
+}
+@media (max-width: 600px) {
+  .fullWidthWrapper .footerText {
+    position: relative;
+    bottom: unset;
+    left: unset;
+    transform: unset;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
